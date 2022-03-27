@@ -1,0 +1,15 @@
+.App {
+  background-image:linear-gradient(to right ,#1488CC,#2B32B2 );
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.apss{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
