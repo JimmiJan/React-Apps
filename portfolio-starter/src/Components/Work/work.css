@@ -1,0 +1,72 @@
+.works{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top:4rem ;
+}
+m-right{
+    position: relative;
+}
+.m-maincircle{
+    left: 9rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    top: 2rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -13px, rgba(0, 0, 0, 0.2) 20px -3px 0px inset; */
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+}
+.m-maincircle>*{
+    position: absolute;
+}
+.m-maincircle>:nth-child(1){
+    top: 6rem;
+    left: -3rem;
+}
+
+.m-maincircle>:nth-child(2){
+    top: -3rem;
+    left: 5rem;
+}
+
+
+
+.m-maincircle>:nth-child(3){
+    top: 6rem;
+    left: 6rem;
+}
+
+
+
+
+.m-maincircle>:nth-child(4){
+    top: 15rem;
+    left: 5rem;
+}
+
+.m-maincircle>:nth-child(5){
+    top: 5rem;
+    left: 15.2rem;
+}
+.w-circle{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.w-circleimg{
+    transform: scale(0.6);
+}
+.w-back{
+    position: relative;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
